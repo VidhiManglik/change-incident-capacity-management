@@ -11,7 +11,7 @@ var senderId = "";
 var start_date , end_date ;
 var transporter = nodemailer.createTransport({
     debug: true,
-    host: '10.1.25.58',
+    host: 'add host name',
     port: 587,
     secure: false, 
     auth: {
